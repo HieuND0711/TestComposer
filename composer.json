@@ -1,7 +1,7 @@
 {
     "name": "hieund/test-composer",
     "description": "A projcet to test use composer PHP",
-	"version":"1.0.0",
+    "version":"1.0.0",
     "authors": [
         {
             "name": "HieuND",
@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-		"mysql":">=5.5",
+        "mysql": ">=5.5"
     },
     "autoload": {
         "psr-0": {
