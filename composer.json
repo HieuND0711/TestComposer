@@ -1,18 +1,19 @@
-
-    {
-        "type": "package",
-        "package": {
-            "name": "hieund/test-composer",
-            "version": "dev-test",
-            "source": {
-                "url": "https://github.com/HieuND0711/TestComposer.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "Weaverryan\\DangerZone" : "src"
-                }
-            }
+{
+    "name": "hieund/test-composer",
+    "description": "A projcet to test use composer PHP",
+    "authors": [
+        {
+            "name": "HieuND",
+            "email": "nguyenduyhieu0711@gmail.com"
         }
-    }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Wesleytodd\\UniversalForms": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
