@@ -1,7 +1,6 @@
 {
     "name": "hieund/test-composer",
     "description": "A projcet to test use composer PHP",
-    "version":"1.0.0",
     "authors": [
         {
             "name": "HieuND",
